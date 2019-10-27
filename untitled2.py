@@ -8,10 +8,8 @@ from keras import backend as K
 
 img_width, img_height = 224, 224
 
-path1 = '/home/gajraj/Downloads/MLChallenge/input_data'
-
-path2 = '/home/gajraj/Downloads/MLChallenge/input_data_resized'
-path3 = '/home/gajraj/Downloads/MLChallenge/test'
+path1 = '/home/gajraj/Downloads/MLChallenge/input_data' # train data
+path3 = '/home/gajraj/Downloads/MLChallenge/test' # test data
 
 train_data_dir = path1
 validation_data_dir = path3
